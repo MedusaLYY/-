@@ -32,3 +32,6 @@ shots/
 *.tmp.mjs
 *.tmp.bundle.mjs
 .repo-probe.tmp.json
+
+# Vite 配置热重载的临时产物（dev 运行时自动生成）
+vite.config.js.timestamp-*.mjs
